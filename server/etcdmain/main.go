@@ -23,6 +23,7 @@ import (
 )
 
 func Main(args []string) {
+	//检查支持的架构
 	checkSupportArch()
 
 	if len(args) > 1 {
